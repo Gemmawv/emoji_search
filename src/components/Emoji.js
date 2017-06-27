@@ -5,7 +5,8 @@ class Emoji extends React.Component {
     render() {
         return (
             <div>
-                Emoji yay!
+                {this.props.title}
+               {this.props.symbol}
             </div>
         )
     }
