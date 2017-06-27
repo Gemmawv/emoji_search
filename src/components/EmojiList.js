@@ -8,7 +8,7 @@ class EmojiList extends React.Component {
         return (
             <div>
                 {this.props.emojis.map(function (emoji){
-                    return <Emoji title={emoji.title} symbol={emoji.symbol}/>
+                    return <Emoji key = {emoji.title} title={emoji.title} symbol={emoji.symbol}/>;
                 })}
             </div>
         )

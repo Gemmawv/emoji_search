@@ -6,10 +6,10 @@ class Emoji extends React.Component {
         return (
             <div>
                 {this.props.title}
-               {this.props.symbol}
+                {this.props.symbol}
             </div>
         )
     }
-} 
+}
 
 export default Emoji;
