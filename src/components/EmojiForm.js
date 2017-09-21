@@ -5,7 +5,8 @@ class EmojiForm extends React.Component {
     render() {
         return (
             <div>
-                <input type="text"
+                <input
+                    type="text"
                     onChange={this.props.handleChange}
                 />
             </div>
@@ -15,6 +16,6 @@ class EmojiForm extends React.Component {
 
 EmojiForm.propTypes = {
     handleChange: PropTypes.func.isRequired
-}
+};
 
 export default EmojiForm;

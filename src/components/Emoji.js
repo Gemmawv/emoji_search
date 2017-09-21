@@ -8,8 +8,13 @@ class Emoji extends React.Component {
                 {this.props.title}
                 {this.props.symbol}
             </div>
-        )
+        );
     }
 }
+
+Emoji.propTypes = {
+    title: PropTypes.string.isRequired,
+    symbol: PropTypes.string.isRequired
+};
 
 export default Emoji;
